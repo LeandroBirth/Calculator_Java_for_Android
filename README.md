@@ -26,10 +26,11 @@ The app is divided into the following main components:
 ---Installation
 Clone the repository and open the project in Android Studio:
 
-git clone https://github.com/LeandroBirth/Calculator_Java_for_Android.git
+*git clone https://github.com/LeandroBirth/Calculator_Java_for_Android.git*
+
 Build and run the project on an Android emulator or connected device.
 
 
-*Alternatively, download the provided APK file from the Releases section to install it directly*
+Alternatively, download the provided APK file from the Releases section to install it directly
 
-            Alternatively, download the provided APK file from the Releases section to install it directly
+            
