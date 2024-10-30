@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/Users/leandro/.gradle/daemon/8.9/mooc.vandy.java4android.calculator.app-debug-18:/layout_spinner_item.xml.flat",
+        "source": "/Users/leandro/.gradle/daemon/8.9/mooc.vandy.java4android.calculator.app-main-20:/layout/spinner_item.xml"
+    },
+    {
+        "merged": "/Users/leandro/.gradle/daemon/8.9/mooc.vandy.java4android.calculator.app-debug-18:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/leandro/.gradle/daemon/8.9/mooc.vandy.java4android.calculator.app-main-20:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/leandro/.gradle/daemon/8.9/mooc.vandy.java4android.calculator.app-debug-18:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/leandro/.gradle/daemon/8.9/mooc.vandy.java4android.calculator.app-main-20:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "mooc.vandy.java4android.calculator.app-debug-18:/layout_activity_main.xml.flat",
+        "source": "mooc.vandy.java4android.calculator.app-main-20:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/leandro/.gradle/daemon/8.9/mooc.vandy.java4android.calculator.app-debug-18:/layout_activity_main.xml.flat",
+        "source": "/Users/leandro/.gradle/daemon/8.9/mooc.vandy.java4android.calculator.app-main-20:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/leandro/.gradle/daemon/8.9/mooc.vandy.java4android.calculator.app-debug-18:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/leandro/.gradle/daemon/8.9/mooc.vandy.java4android.calculator.app-main-20:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/leandro/.gradle/daemon/8.9/mooc.vandy.java4android.calculator.app-debug-18:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/leandro/.gradle/daemon/8.9/mooc.vandy.java4android.calculator.app-main-20:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/leandro/.gradle/daemon/8.9/mooc.vandy.java4android.calculator.app-debug-18:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/leandro/.gradle/daemon/8.9/mooc.vandy.java4android.calculator.app-main-20:/mipmap-hdpi/ic_launcher.png"
+    }
+]

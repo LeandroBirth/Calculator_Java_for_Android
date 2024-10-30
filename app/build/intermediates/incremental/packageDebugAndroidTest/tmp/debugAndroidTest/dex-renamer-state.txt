@@ -1,0 +1,4 @@
+#Wed Oct 30 12:54:06 BRT 2024
+base.0=/Users/leandro/Documents/Programas.Android/m8-calculator/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/0/classes.dex
+path.0=0/classes.dex
+renamed.0=classes.dex

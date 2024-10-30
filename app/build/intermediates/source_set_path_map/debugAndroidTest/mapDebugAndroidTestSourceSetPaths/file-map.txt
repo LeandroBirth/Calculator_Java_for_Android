@@ -1,0 +1,4 @@
+mooc.vandy.java4android.calculator.test.app-androidTest-0 /Users/leandro/Documents/Programas.Android/m8-calculator/app/build/generated/res/resValues/androidTest/debug
+mooc.vandy.java4android.calculator.test.app-mergeDebugAndroidTestResources-1 /Users/leandro/Documents/Programas.Android/m8-calculator/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+mooc.vandy.java4android.calculator.test.app-mergeDebugAndroidTestResources-2 /Users/leandro/Documents/Programas.Android/m8-calculator/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+mooc.vandy.java4android.calculator.test.app-debugAndroidTest-3 /Users/leandro/Documents/Programas.Android/m8-calculator/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources

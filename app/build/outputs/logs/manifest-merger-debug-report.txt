@@ -1,0 +1,167 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/leandro/Documents/Programas.Android/m8-calculator/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/leandro/Documents/Programas.Android/m8-calculator/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/leandro/Documents/Programas.Android/m8-calculator/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/leandro/Documents/Programas.Android/m8-calculator/app/src/main/AndroidManifest.xml:2:1-22:12
+MERGED from [com.google.android.material:material:1.4.0] /Users/leandro/.gradle/caches/8.9/transforms/fc39db446e9cefdc3f125b1a15f738b1/transformed/material-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] /Users/leandro/.gradle/caches/8.9/transforms/f30d02e5771890afb2f384588ca4af9f/transformed/constraintlayout-2.1.1/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.3.1] /Users/leandro/.gradle/caches/8.9/transforms/4396df8d3a3b6c141366f26e81243629/transformed/appcompat-1.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/leandro/.gradle/caches/8.9/transforms/b08af6b54310baf0458b631c1e844fe5/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/leandro/.gradle/caches/8.9/transforms/f1282125272006481a37e1af4b8bb27c/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] /Users/leandro/.gradle/caches/8.9/transforms/2fc7c3f542db22d108d6294b2d28ae84/transformed/jetified-activity-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /Users/leandro/.gradle/caches/8.9/transforms/7e339072c6cbd8cc46d2db58727069aa/transformed/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/leandro/.gradle/caches/8.9/transforms/bcdd87f6552206944ec2aa88ece6afe8/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/leandro/.gradle/caches/8.9/transforms/4e3cedc943307a11235aa557e899c9fb/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/leandro/.gradle/caches/8.9/transforms/a1cee719158660c041cc1974f5fe14f4/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/leandro/.gradle/caches/8.9/transforms/392edfa2b1085483c9e77e278fd71ba2/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/leandro/.gradle/caches/8.9/transforms/8d5733ae43a3e4592307603181c279e3/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/leandro/.gradle/caches/8.9/transforms/e897ad4c68800eedbb04fd7ac6776fca/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/leandro/.gradle/caches/8.9/transforms/220e65f5a415c7a26b89f71db4da6600/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/leandro/.gradle/caches/8.9/transforms/a02e878ebdfa305c90d96021abcd6396/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/leandro/.gradle/caches/8.9/transforms/d70a560c1d1a4e7a4d04cb56615f9c5b/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/leandro/.gradle/caches/8.9/transforms/e72c46d58ff6a7411940e1d9a5bdf2f3/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/leandro/.gradle/caches/8.9/transforms/baf28f587d26796eaffcb6ab61ab5e55/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.5.0] /Users/leandro/.gradle/caches/8.9/transforms/693fa5442cec3aae9bfaf61b8bfb7f12/transformed/core-1.5.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/leandro/.gradle/caches/8.9/transforms/f4a349d89fe7d7323bec31a24981df36/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/leandro/.gradle/caches/8.9/transforms/313cb2e852a2d1a57a0e7e9b866c3706/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/leandro/.gradle/caches/8.9/transforms/0346889a2a101c55fc9a738187738208/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/leandro/.gradle/caches/8.9/transforms/b6aa1ac33a049cb8ca8ed93c2efb773a/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/leandro/.gradle/caches/8.9/transforms/83a7bf85602bcff85d237eea46b7ef42/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/leandro/.gradle/caches/8.9/transforms/4212a0244385003e4043595e3c65cff4/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/leandro/.gradle/caches/8.9/transforms/ffa3bb7712fc247f81683ff06a4a6995/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/leandro/.gradle/caches/8.9/transforms/86bdf6cc7bcaefceca44a0b151412351/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/leandro/.gradle/caches/8.9/transforms/05dc9ec6d2c9afefb405e42b907a8395/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/leandro/.gradle/caches/8.9/transforms/0c6e6f65657a45298a8fa1aa60300c3e/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/leandro/.gradle/caches/8.9/transforms/fb8537a7c447005f0076692f1ba25b2a/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/leandro/.gradle/caches/8.9/transforms/78e78106ec02e315b5e7f68debe48a09/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/leandro/.gradle/caches/8.9/transforms/2a5a2a60b9aacf12de5adb69aca1855f/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/leandro/.gradle/caches/8.9/transforms/72b83d453e999451672c5373f61227a3/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/leandro/.gradle/caches/8.9/transforms/e35317e7e53d17a55272f86f5baff391/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/leandro/.gradle/caches/8.9/transforms/bccfdc276ef09b3c76c031045d2cba72/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+	package
+		ADDED from /Users/leandro/Documents/Programas.Android/m8-calculator/app/src/main/AndroidManifest.xml:3:5-49
+		INJECTED from /Users/leandro/Documents/Programas.Android/m8-calculator/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/leandro/Documents/Programas.Android/m8-calculator/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/leandro/Documents/Programas.Android/m8-calculator/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/leandro/Documents/Programas.Android/m8-calculator/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/leandro/Documents/Programas.Android/m8-calculator/app/src/main/AndroidManifest.xml:5:5-20:19
+INJECTED from /Users/leandro/Documents/Programas.Android/m8-calculator/app/src/main/AndroidManifest.xml:5:5-20:19
+MERGED from [com.google.android.material:material:1.4.0] /Users/leandro/.gradle/caches/8.9/transforms/fc39db446e9cefdc3f125b1a15f738b1/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.4.0] /Users/leandro/.gradle/caches/8.9/transforms/fc39db446e9cefdc3f125b1a15f738b1/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] /Users/leandro/.gradle/caches/8.9/transforms/f30d02e5771890afb2f384588ca4af9f/transformed/constraintlayout-2.1.1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] /Users/leandro/.gradle/caches/8.9/transforms/f30d02e5771890afb2f384588ca4af9f/transformed/constraintlayout-2.1.1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.5.0] /Users/leandro/.gradle/caches/8.9/transforms/693fa5442cec3aae9bfaf61b8bfb7f12/transformed/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.5.0] /Users/leandro/.gradle/caches/8.9/transforms/693fa5442cec3aae9bfaf61b8bfb7f12/transformed/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/leandro/.gradle/caches/8.9/transforms/ffa3bb7712fc247f81683ff06a4a6995/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/leandro/.gradle/caches/8.9/transforms/ffa3bb7712fc247f81683ff06a4a6995/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from /Users/leandro/Documents/Programas.Android/m8-calculator/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.5.0] /Users/leandro/.gradle/caches/8.9/transforms/693fa5442cec3aae9bfaf61b8bfb7f12/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/leandro/Documents/Programas.Android/m8-calculator/app/src/main/AndroidManifest.xml:9:9-35
+	android:label
+		ADDED from /Users/leandro/Documents/Programas.Android/m8-calculator/app/src/main/AndroidManifest.xml:8:9-41
+	android:icon
+		ADDED from /Users/leandro/Documents/Programas.Android/m8-calculator/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /Users/leandro/Documents/Programas.Android/m8-calculator/app/src/main/AndroidManifest.xml:6:9-35
+activity#mooc.vandy.java4android.calculator.ui.MainActivity
+ADDED from /Users/leandro/Documents/Programas.Android/m8-calculator/app/src/main/AndroidManifest.xml:11:9-19:20
+	android:exported
+		ADDED from /Users/leandro/Documents/Programas.Android/m8-calculator/app/src/main/AndroidManifest.xml:12:13-36
+	android:name
+		ADDED from /Users/leandro/Documents/Programas.Android/m8-calculator/app/src/main/AndroidManifest.xml:11:19-50
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/leandro/Documents/Programas.Android/m8-calculator/app/src/main/AndroidManifest.xml:14:13-18:29
+action#android.intent.action.MAIN
+ADDED from /Users/leandro/Documents/Programas.Android/m8-calculator/app/src/main/AndroidManifest.xml:15:17-69
+	android:name
+		ADDED from /Users/leandro/Documents/Programas.Android/m8-calculator/app/src/main/AndroidManifest.xml:15:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/leandro/Documents/Programas.Android/m8-calculator/app/src/main/AndroidManifest.xml:17:17-77
+	android:name
+		ADDED from /Users/leandro/Documents/Programas.Android/m8-calculator/app/src/main/AndroidManifest.xml:17:27-74
+uses-sdk
+INJECTED from /Users/leandro/Documents/Programas.Android/m8-calculator/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/leandro/Documents/Programas.Android/m8-calculator/app/src/main/AndroidManifest.xml
+INJECTED from /Users/leandro/Documents/Programas.Android/m8-calculator/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.4.0] /Users/leandro/.gradle/caches/8.9/transforms/fc39db446e9cefdc3f125b1a15f738b1/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0] /Users/leandro/.gradle/caches/8.9/transforms/fc39db446e9cefdc3f125b1a15f738b1/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] /Users/leandro/.gradle/caches/8.9/transforms/f30d02e5771890afb2f384588ca4af9f/transformed/constraintlayout-2.1.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] /Users/leandro/.gradle/caches/8.9/transforms/f30d02e5771890afb2f384588ca4af9f/transformed/constraintlayout-2.1.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] /Users/leandro/.gradle/caches/8.9/transforms/4396df8d3a3b6c141366f26e81243629/transformed/appcompat-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] /Users/leandro/.gradle/caches/8.9/transforms/4396df8d3a3b6c141366f26e81243629/transformed/appcompat-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/leandro/.gradle/caches/8.9/transforms/b08af6b54310baf0458b631c1e844fe5/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/leandro/.gradle/caches/8.9/transforms/b08af6b54310baf0458b631c1e844fe5/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/leandro/.gradle/caches/8.9/transforms/f1282125272006481a37e1af4b8bb27c/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/leandro/.gradle/caches/8.9/transforms/f1282125272006481a37e1af4b8bb27c/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/leandro/.gradle/caches/8.9/transforms/2fc7c3f542db22d108d6294b2d28ae84/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/leandro/.gradle/caches/8.9/transforms/2fc7c3f542db22d108d6294b2d28ae84/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /Users/leandro/.gradle/caches/8.9/transforms/7e339072c6cbd8cc46d2db58727069aa/transformed/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /Users/leandro/.gradle/caches/8.9/transforms/7e339072c6cbd8cc46d2db58727069aa/transformed/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/leandro/.gradle/caches/8.9/transforms/bcdd87f6552206944ec2aa88ece6afe8/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/leandro/.gradle/caches/8.9/transforms/bcdd87f6552206944ec2aa88ece6afe8/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/leandro/.gradle/caches/8.9/transforms/4e3cedc943307a11235aa557e899c9fb/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/leandro/.gradle/caches/8.9/transforms/4e3cedc943307a11235aa557e899c9fb/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/leandro/.gradle/caches/8.9/transforms/a1cee719158660c041cc1974f5fe14f4/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/leandro/.gradle/caches/8.9/transforms/a1cee719158660c041cc1974f5fe14f4/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/leandro/.gradle/caches/8.9/transforms/392edfa2b1085483c9e77e278fd71ba2/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/leandro/.gradle/caches/8.9/transforms/392edfa2b1085483c9e77e278fd71ba2/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/leandro/.gradle/caches/8.9/transforms/8d5733ae43a3e4592307603181c279e3/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/leandro/.gradle/caches/8.9/transforms/8d5733ae43a3e4592307603181c279e3/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/leandro/.gradle/caches/8.9/transforms/e897ad4c68800eedbb04fd7ac6776fca/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/leandro/.gradle/caches/8.9/transforms/e897ad4c68800eedbb04fd7ac6776fca/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/leandro/.gradle/caches/8.9/transforms/220e65f5a415c7a26b89f71db4da6600/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/leandro/.gradle/caches/8.9/transforms/220e65f5a415c7a26b89f71db4da6600/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/leandro/.gradle/caches/8.9/transforms/a02e878ebdfa305c90d96021abcd6396/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/leandro/.gradle/caches/8.9/transforms/a02e878ebdfa305c90d96021abcd6396/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/leandro/.gradle/caches/8.9/transforms/d70a560c1d1a4e7a4d04cb56615f9c5b/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/leandro/.gradle/caches/8.9/transforms/d70a560c1d1a4e7a4d04cb56615f9c5b/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/leandro/.gradle/caches/8.9/transforms/e72c46d58ff6a7411940e1d9a5bdf2f3/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/leandro/.gradle/caches/8.9/transforms/e72c46d58ff6a7411940e1d9a5bdf2f3/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/leandro/.gradle/caches/8.9/transforms/baf28f587d26796eaffcb6ab61ab5e55/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/leandro/.gradle/caches/8.9/transforms/baf28f587d26796eaffcb6ab61ab5e55/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.5.0] /Users/leandro/.gradle/caches/8.9/transforms/693fa5442cec3aae9bfaf61b8bfb7f12/transformed/core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0] /Users/leandro/.gradle/caches/8.9/transforms/693fa5442cec3aae9bfaf61b8bfb7f12/transformed/core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/leandro/.gradle/caches/8.9/transforms/f4a349d89fe7d7323bec31a24981df36/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/leandro/.gradle/caches/8.9/transforms/f4a349d89fe7d7323bec31a24981df36/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/leandro/.gradle/caches/8.9/transforms/313cb2e852a2d1a57a0e7e9b866c3706/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/leandro/.gradle/caches/8.9/transforms/313cb2e852a2d1a57a0e7e9b866c3706/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/leandro/.gradle/caches/8.9/transforms/0346889a2a101c55fc9a738187738208/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/leandro/.gradle/caches/8.9/transforms/0346889a2a101c55fc9a738187738208/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/leandro/.gradle/caches/8.9/transforms/b6aa1ac33a049cb8ca8ed93c2efb773a/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/leandro/.gradle/caches/8.9/transforms/b6aa1ac33a049cb8ca8ed93c2efb773a/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/leandro/.gradle/caches/8.9/transforms/83a7bf85602bcff85d237eea46b7ef42/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/leandro/.gradle/caches/8.9/transforms/83a7bf85602bcff85d237eea46b7ef42/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/leandro/.gradle/caches/8.9/transforms/4212a0244385003e4043595e3c65cff4/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/leandro/.gradle/caches/8.9/transforms/4212a0244385003e4043595e3c65cff4/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/leandro/.gradle/caches/8.9/transforms/ffa3bb7712fc247f81683ff06a4a6995/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/leandro/.gradle/caches/8.9/transforms/ffa3bb7712fc247f81683ff06a4a6995/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/leandro/.gradle/caches/8.9/transforms/86bdf6cc7bcaefceca44a0b151412351/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/leandro/.gradle/caches/8.9/transforms/86bdf6cc7bcaefceca44a0b151412351/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/leandro/.gradle/caches/8.9/transforms/05dc9ec6d2c9afefb405e42b907a8395/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/leandro/.gradle/caches/8.9/transforms/05dc9ec6d2c9afefb405e42b907a8395/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/leandro/.gradle/caches/8.9/transforms/0c6e6f65657a45298a8fa1aa60300c3e/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/leandro/.gradle/caches/8.9/transforms/0c6e6f65657a45298a8fa1aa60300c3e/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/leandro/.gradle/caches/8.9/transforms/fb8537a7c447005f0076692f1ba25b2a/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/leandro/.gradle/caches/8.9/transforms/fb8537a7c447005f0076692f1ba25b2a/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/leandro/.gradle/caches/8.9/transforms/78e78106ec02e315b5e7f68debe48a09/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/leandro/.gradle/caches/8.9/transforms/78e78106ec02e315b5e7f68debe48a09/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/leandro/.gradle/caches/8.9/transforms/2a5a2a60b9aacf12de5adb69aca1855f/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/leandro/.gradle/caches/8.9/transforms/2a5a2a60b9aacf12de5adb69aca1855f/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/leandro/.gradle/caches/8.9/transforms/72b83d453e999451672c5373f61227a3/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/leandro/.gradle/caches/8.9/transforms/72b83d453e999451672c5373f61227a3/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/leandro/.gradle/caches/8.9/transforms/e35317e7e53d17a55272f86f5baff391/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/leandro/.gradle/caches/8.9/transforms/e35317e7e53d17a55272f86f5baff391/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/leandro/.gradle/caches/8.9/transforms/bccfdc276ef09b3c76c031045d2cba72/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/leandro/.gradle/caches/8.9/transforms/bccfdc276ef09b3c76c031045d2cba72/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+	android:targetSdkVersion
+		INJECTED from /Users/leandro/Documents/Programas.Android/m8-calculator/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/leandro/Documents/Programas.Android/m8-calculator/app/src/main/AndroidManifest.xml

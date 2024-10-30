@@ -1,0 +1,161 @@
+def courseraSlug = 'java-for-android'
+def submissionName = 'submission'
+def autoGraded = project.properties.getOrDefault('coursera.autoGraded', 'false') == 'true'
+def peerReview = project.hasProperty('coursera.peerReviewUrls')
+
+def openLink(htmlLink) {
+    def os = org.gradle.internal.os.OperatingSystem.current()
+    if (os.isWindows()) {
+        exec { commandLine 'cmd', '/c', "start $htmlLink" }
+    } else if (os.isMacOsX()) {
+        exec { commandLine 'open', "$htmlLink" }
+    } else if (os.isLinux()) {
+        exec { commandLine 'xdg-open', "$htmlLink" }
+    }
+}
+
+def getPropertyList(name) {
+    def prop = project.properties.getOrDefault(name, null)
+    if (prop == null) {
+        return []
+    } else {
+        prop.contains(",") ? prop.split(",") : [prop]
+    }
+}
+
+tasks.register('zipProject', Zip) {
+    description = "Compresses your entire project into the zip archive build/zip/${project.name}.zip."
+    def archiveName = "${project.name}"
+
+    from projectDir
+    into project.name
+
+    archiveBaseName.set(archiveName)
+    destinationDirectory.set(layout.buildDirectory.dir("zip"))
+
+    include 'build.gradle'
+    include 'gradle.properties'
+    include 'gradlew'
+    include 'gradlew.bat'
+    include 'settings.gradle'
+    include 'gradle/**'
+
+    exclude 'build'
+    exclude '.gradle'
+    exclude '.idea'
+    exclude '*.iml'
+    exclude 'local.properties'
+
+    include 'app/**'
+    exclude 'app/*.iml'
+    exclude 'app/build'
+}
+
+if (autoGraded || peerReview) {
+    tasks.register('zipSubmission', Zip) {
+        group = "[coursera tools]"
+        description = autoGraded ?
+                "Creates the zip archive build/zip/${submissionName}.zip for submitting on the Coursera assignment page." :
+                "Creates the zip archive build/zip/${submissionName}.zip for submitting on the Coursera assignment peer submission page."
+
+        def submissionFiles = getPropertyList('coursera.submissionFiles')
+        if (submissionFiles) {
+            from(projectDir) {
+                submissionFiles.each {
+                    include it.toString()
+                }
+            }
+        } else {
+            dependsOn tasks.named('zipProject')
+            from(tasks.named('zipProject').get().outputs.files.singleFile)
+        }
+
+        archiveBaseName.set(submissionName)
+        destinationDirectory.set(layout.buildDirectory.dir("zip"))
+    }
+
+    if (autoGraded) {
+        tasks.register('graderPreview', GradleBuild) {
+            group = "[coursera tools]"
+            description = "Displays a preview of your assignment grading rubric results and your expected grade."
+            doFirst {
+                setTasks(['testDebugUnitTest', '--tests', '*.AutoGraderPreview.graderPreview'])
+            }
+        }
+
+        tasks.register('submitForGrading') {
+            dependsOn tasks.named('zipSubmission')
+            group = "[coursera tools]"
+            description = "Creates your zip/${submissionName}.zip archive and opens Coursera assignment page so that you can upload this file for grading."
+
+            doLast {
+                def autoGradingUrl = project.property('coursera.autoGradingUrl') as String
+                def itemId = project.property('coursera.itemId') as String
+                def url = "https://www.coursera.org/learn/$courseraSlug/programming/$itemId/$autoGradingUrl/submission"
+
+                openLink(url)
+
+                println ""
+                println "+*****************************************************************+"
+                println "|                     SUBMISSION INSTRUCTIONS                     |"
+                println "+*****************************************************************+"
+                println "| Click the following link to upload the submission.zip file:     |"
+                println "|                                                                 |"
+                println "|   $projectDir/build/zip                                         |"
+                println "+*****************************************************************+"
+            }
+        }
+    }
+
+    if (peerReview) {
+        def peerUrls = getPropertyList('coursera.peerReviewUrls')
+
+        if (peerUrls.size() == 1) {
+            tasks.register('submitForPeerReview') {
+                group = "[coursera tools]"
+                description = "Opens Coursera peer review page to upload your submission for peer review."
+
+                doFirst {
+                    openLink("https://www.coursera.org/learn/$courseraSlug/peer/${peerUrls[0]}/submit")
+                }
+            }
+
+            tasks.register('reviewPeerSubmissions') {
+                group = "[coursera tools]"
+                description = "Opens Coursera peer review page to review peer submissions."
+
+                doFirst {
+                    openLink("https://www.coursera.org/learn/$courseraSlug/peer/${peerUrls[0]}/give-feedback")
+                }
+            }
+        } else if (peerUrls.size() > 1) {
+            peerUrls.each { url ->
+                def name = url.split("-").last()
+
+                tasks.register("submit${name.capitalize()}ForPeerReview") {
+                    group = "[coursera tools]"
+                    description = "Opens Coursera peer review page to upload your ${name} submission."
+                    doFirst {
+                        openLink("https://www.coursera.org/learn/$courseraSlug/peer/$url/submit")
+                    }
+                }
+
+                tasks.register("reviewPeerSubmissionsFor${name.capitalize()}") {
+                    group = "[coursera tools]"
+                    description = "Opens Coursera peer review page to review ${name} submissions."
+                    doFirst {
+                        openLink("https://www.coursera.org/learn/$courseraSlug/peer/$url/give-feedback")
+                    }
+                }
+            }
+        }
+    }
+}
+
+if (file("$projectDir/admin/skeleton.gradle").isFile()) {
+    apply from: "$projectDir/admin/skeleton.gradle"
+}
+
+if (file("$projectDir/admin/docker.gradle").isFile()) {
+    apply from: "$projectDir/admin/docker.gradle"
+}
